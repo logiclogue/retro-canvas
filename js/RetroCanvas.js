@@ -11,9 +11,19 @@ function RetroCanvas(canvas) {
 
 (function (static_, proto_) {
 
+    /*
+     * Adds a canvas.
+     */
     proto_.addCanvas = function (canvas) {
         this.canvas = canvas;
         this.ctx = canvas.getContext('2d');
+    };
+
+    /*
+     * Draws the image data.
+     */
+    proto_.draw = function () {
+        
     };
 
 }(RetroCanvas, RetroCanvas.prototype));
